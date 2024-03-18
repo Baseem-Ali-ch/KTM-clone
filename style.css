@@ -1,0 +1,548 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: blenderPro;
+    src: url(./font/BlenderPro-Heavy.ttf);
+}
+@font-face {
+    font-family: tradeGothic;
+    src: url(./TradeGothicLT-Light/TradeGothicLT-Light.ttf);
+}
+
+ul li a{
+    text-decoration: none;
+    padding-left: 42px;
+    color: white;
+    font-family: blenderPro;
+    font-weight: bold;
+}
+.homeList{
+    list-style: none;
+    display: flex;
+    padding-top: 62px; 
+    font-size: 19px;
+    
+    
+}
+.homeList {
+    font-family: arial;
+}
+.iconLocation{
+    width: 38px;
+    margin-left: 103px;
+    margin-top: 60px;
+}
+.iconCountry{
+    width: 25px; 
+    margin-top: 60px;
+    margin-left: 18px;
+}
+.iconLogo{
+    width: 173px;
+    margin-left: 51px;
+}
+.banner{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 110%;
+}
+header{
+    position: relative;
+    z-index: 1;
+}
+.text{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    margin-left: 47%;
+    margin-top: 6%;
+    font-family: blenderPro;
+    
+}
+.mainText{
+    position: relative;
+    z-index: 1;
+    color: white;
+    margin-left: 132PX;
+    margin-top: 3%;
+    font-size: 59px;
+    font-family: blenderPro;
+}
+
+.glide__bullets{
+    position: absolute;
+    bottom: 40px;
+    margin-left: 36em;
+    
+}
+.bullet{
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px 2px;
+}
+
+.bullet-bar1{
+    display: block;
+    background-color: #ff6201;
+    border-radius: 5px;
+    height: 3px;
+    width: 40px;
+}
+.bullet-bar{
+    display: block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 3px;
+    width: 40px;
+}
+.secondBanner{
+    
+    margin-top: 20em;
+    margin-left: 46px;
+
+}
+.secondBanner a g{
+    width: 79em;
+}
+.image1{
+    width: 28em;
+    height: auto;
+}
+.image1 a img{
+    width: 25.5em;
+    height: 19em;
+    margin-left: 45px;
+    margin-top: 4em;
+}
+.image2 a img{
+    width: 25.5em;
+    height: 19em;
+    margin-left: 26px;
+    margin-top: 4em;
+}
+.image3 a img{
+    width: 25.5em;
+    height: 19em;
+    margin-left: 20px;
+    margin-top: 4em;
+}
+.threeImages{
+    display: flex;
+    margin-top: 5em;
+}
+.image1 a {
+    text-decoration: none;
+    color: black;
+}
+.image1 h5{
+    margin-left: 44px;
+    margin-top: 20px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image1 h2{
+    margin-left: 44px;
+    margin-top: 16px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 29.5px;
+}
+.image2 a {
+    text-decoration: none;
+    color: black;
+}
+.image2 h5{
+    margin-left: 27px;
+    margin-top: 20px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image2 h2{
+    margin-left: 28px;
+    margin-top: 16px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 29.5px;
+}
+.image3 a {
+    text-decoration: none;
+    color: black;
+}
+.image3 h5{
+    margin-left: 27px;
+    margin-top: 20px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image3 h2{
+    margin-left: 28px;
+    margin-top: 16px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 29.5px;
+}
+.secondthreeImages{
+    display: flex;
+}
+.image4 a img{
+    width: 24em;
+    height: 24.5em;
+    margin-left: 42px;
+    margin-top: 4em;
+}
+.image5 a img{
+    width: 24.2em;
+    height: 24.5em;
+    margin-left: 55px;
+    margin-top: 4em;
+}
+.image6 a img{
+    width: 24.2em;
+    height: 24.5em;
+    margin-left: 54px;
+    margin-top: 4em;
+}
+.image4 a {
+    text-decoration: none;
+    color: black;
+}
+.image4 h4{
+    margin-left: 44px;
+    margin-top: 20px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image4 h2{
+    margin-left: 44px;
+    margin-top: 16px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 36px;
+}
+.image4 p{
+    margin-left: 44px;
+    line-height: 29px;
+    font-size: 19px;
+    margin-top: 30px;
+    font-family: tradeGothic;
+    font-weight: bold;
+}
+.image4 h2:hover{
+    color: orangered; 
+    transition: ease 0.3s;
+}
+.image5 h2:hover{
+    color: #ff6201;
+    transition: ease 0.3s;
+}
+.image6 h2:hover{
+    color: #ff6201;
+    transition: ease 0.3s;
+}
+.image5 a {
+    text-decoration: none;
+    color: black;
+}
+.image5 h4{
+    margin-left: 52px;
+    margin-top: 20px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image5 h2{
+    margin-left: 52px;
+    margin-top: 16px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 36px;
+}
+.image5 p{
+    margin-left: 52px;
+    line-height: 26px;
+    font-size: 19px;
+    margin-top: 30px;
+    font-family: tradeGothic;
+    font-weight: bold;
+}
+.image6 a {
+    text-decoration: none;
+    color: black;
+}
+.image6 h4{
+    margin-left: 52px;
+    margin-top: 20px;
+    font-family: blenderPro;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image6 h2{
+    margin-left: 52px;
+    margin-top: 16px;
+    font-family: blenderPro;
+    font-weight: bolder;
+    font-size: 36px;
+}
+.image6 p{
+    margin-left: 52px;
+    line-height: 26px;
+    font-size: 19px;
+    margin-top: 30px;
+    font-family: tradeGothic;
+    font-weight: bold;
+}
+.lastImages{
+    display: flex;
+    margin-top: 7em;
+    margin-left: 40px;
+}
+.imageRow{
+    display: flex;
+    margin-top: -4px;
+}
+.lastImage{
+    width: 20em;
+    height: 15em;
+}
+.box{
+    width: 39.5em;
+    height: 30em;
+    background-color: black;
+    margin-top: -4px;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    font-size: 53px;
+    margin-top: 95px;
+    font-family: blenderPro;
+}
+.box img{
+    width: 4em;
+    margin-left: 18em;
+}
+.box h3{
+    margin-left: 155px;
+    margin-top: 15px;
+    color: rgb(235 235 235 / 52%);
+    font-family: tradeGothic;
+    font-weight: bold;
+    font-size: 19px;
+
+}
+
+.icon img{
+    width: 15px;
+    margin: 0px;
+    margin-left: 41px;
+    margin-top: 28px;
+}
+.instaDiv{
+    border: 1px solid white;
+    margin-top: 53px;
+    width: 186px;
+    height: 71px;
+    margin-left: 232px;
+}
+.instaDiv a{
+    text-decoration: none;
+    color: white;
+}
+.instaDiv h4{
+    margin-left: 76px;
+    margin-top: -20px;
+    font-family: blenderPro;
+}
+.instaDiv:hover{
+    border-color: #ff6201;
+}
+.instaDiv a:hover{
+    color: #ff6201;
+}
+.lastButtonText {
+    margin-top: 5em;
+    margin-left: 28em;
+    font-family: blenderPro;
+}
+.lastButtonText h3{
+    font-size: 24px;
+}
+
+.lastButton{
+    width: 154px;
+    margin-left: 313px;
+    height: 65px;
+    border-width: 1px;
+    border-color: orangered;
+    border-style: solid;
+    margin-top: -41px;
+}
+.lastButton h4{
+    text-align: center;
+    color: orangered;
+    margin-top: 23px;
+    font-size: 19px;
+    cursor: pointer;
+}
+ 
+
+hr{
+    width: 100%;
+    margin-top: 5em;
+    border: 1px solid rgba(89, 89, 89, 0.194);
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    line-height: 26px;
+    color: rgb(199 199 199 / 82%);
+    font-family: tradeGothic;
+    font-weight: lighter;
+    font-size: 14.5px;
+}
+
+.footerList{
+    background-color: black;
+    color: white;
+}
+.footerHeading{
+    width: 191px;
+    text-align: start;
+    margin-left: 49px;
+    padding-top: 75px;
+}
+.footerHeading a{
+    text-decoration: none;
+    color: white;
+    line-height: 33px;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.footerHeading ul{
+    margin-top: 25px;
+    font-family: tradeGothic;
+}
+.footerHeading h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: blenderPro;
+}
+.footerFirstDiv{
+    display: flex;
+}
+.footerHeading a:hover{
+    color: #ff6201;
+}
+#icon1{
+    width: 25px;
+    margin-top: 31px;
+    cursor: pointer;
+}
+#icon2{
+    width: 25px;
+    margin-top: 31px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#icon3{
+    width: 25px;
+    margin-top: 31px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+#icon4{
+    width: 37px;
+    margin-top: 31px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.footerHeadingLast{
+    width: 290px;
+    text-align: start;
+    margin-left: 49px;
+    padding-top: 82px;
+    font-size: 20px;
+    font-family: blenderPro;
+}
+
+.copyRight{
+    width: 33em;
+    height: 5em;
+    margin-top: 46px;
+    font-family: tradeGothic;
+    color: #e2e2e2ab;
+}
+.toTop{
+    margin-left: 38em;
+    margin-top: 47px;
+    color: #ff6201;
+    display: flex;
+    cursor: pointer;
+    font-family: blenderPro;
+    font-size: 18px;
+}
+.lastFooter{
+    display: flex;
+}
+.toTop img{
+    width: 31px;
+    margin-left: 1em;
+    height: 30px;
+    margin-top: -8px;
+}
+#lastHr{
+    width: 92%;
+    margin-left: 51px;
+    border: 1px solid rgba(180 180 180 / 23%);
+}
+.image-text{
+    text-align: center;
+    margin-top: -18.5em;
+    font-family: blenderPro;
+}
+.image-text h2{
+    color: white;
+    
+}
+.image-main-text{
+    text-align: center;
+    font-family: blenderPro;
+}
+.image-main-text h1{
+    font-size: 84px;
+    color: white;
+    margin-left: 38px;
+    font-weight: bold;
+}
+.two-text:hover{
+    opacity: 0;
+    transition: 0.3s;
+}
+.lastButton:hover{
+    background-color: orangered;
+    width: 190px;
+    transition: 0.3s;
+}
+.lastButton h4:hover{
+    
+    color: white;
+}
+.lastButton i img{
+    width: 28px;
+    margin-left: 135px;
+    margin-top: -16em;
+    opacity: 0;
+}
+.lastButton i img:hover{
+    opacity: 1;
+    color: white;
+}
